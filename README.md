@@ -17,6 +17,6 @@ Usage
 	
 The GoogleMapsLocation object has properties for the Latitude, Longitude, and Address (the address that was returned from the Google Maps geocoding service).
 
-If you call `ToString()` on the object, the output string will be formatted with all of the object's information (formatted as `Address (Latitude, Longitude)`).
+If you call `ToString()` on the object, the output string will be formatted with all of the object's information, formatted as `Address (Latitude, Longitude)`.
 
-There is also a `Parse(string value)` method that will turn a string (formatted as `Address (Latitude, Longitude)`) into a GoogleMapsLocation object.
+There is also a `Parse(string value)` method that will turn a string, formatted as `Address (Latitude, Longitude)`, into a GoogleMapsLocation object.
